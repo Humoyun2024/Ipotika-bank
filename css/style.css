@@ -136,25 +136,56 @@ nav {
     margin-bottom: 100px;
 }
 
-.text1 h1{
+.text1 span{
     float: right;
     padding-right: 332px;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: sans-serif;
 }
 
-.text2 h1{
+.text2 span{
     float: right;
-    padding-right: 332px;
-    padding-top: -30px;
+    padding-right: 310px;
+    margin-top: -50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 23px;
 }
 
-.text3 h1{
+.text3 span{
     float: right;
-    padding-right: 332px;
+    padding-right: 255px;
+    margin-top: -50px;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: sans-serif;
 }
 
 .text4 span{
     font-weight: bold;
-    font-size: 23px;
+    font-size: 26px;
+    font-family: sans-serif;
+    margin-top: -60px;
+    margin-left: 5px;
+}
+
+.text1 p{
+    padding-left: 45px;
+    padding-top: 10px;
+}
+
+.text2 p{
+    padding-left: 70px;
+}
+
+.text3 p{
+    padding-left: 45px;
+}
+
+.text4 p{
+    padding-left: 45px;
+    padding-top: 10px;
 }
 
 .text1 {
@@ -286,7 +317,6 @@ hr {
 }
 
 .right{
-    /* margin-right: 750px; */
     float: right;
 }
 
@@ -296,7 +326,7 @@ hr {
 
 .section4{
     margin-top: 100px;
-    background-image: url("./image/phonebgbanner.jpg");
+    background-image: url("../img/phonebgbanner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -414,6 +444,10 @@ hr {
     padding-top: 40px;
 }
 
+.icons1 div{
+    border-right: 1px solid black;
+}
+
 .gls1{
     display: flex;
     justify-content: space-between;
@@ -439,5 +473,5 @@ footer{
     background-color: green;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 200px;
 }
